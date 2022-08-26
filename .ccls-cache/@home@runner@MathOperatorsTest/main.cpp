@@ -27,6 +27,18 @@ int main() {
 
   cout << " 3/2 + 5.5 = " << 3/2 + 5.5 << endl;
   cout << " 3.0/2.0 + 5.5 = " << 3.0/2.0 + 5.5 << endl;
+
+  //Testing character data types
+  char letter1;
+  letter1 = 'g';
+  cout << "letter1 = " << letter1 << endl;
+
+  // how to input values
+  int myInt;
+  cout << "Input an integer: ";
+  cin >> myInt;
+  cout << "You entered " << myInt << endl;
+
   
   
 }
